@@ -1,0 +1,15 @@
+nohup.out
+composer.lock
+config/_*
+config/config.local.php
+node_modules/*
+vendor/*
+vendor*.zip
+log/*
+.idea*
+*.swp
+npm-debug.log
+public/static/vendor/
+Vagrantfile
+.vagrant
+.DS_Store

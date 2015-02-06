@@ -1,0 +1,28 @@
+{
+    "name": "evaengine/eva-skeleton",
+    "description": "EvaEngine Skeleton",
+    "license": "BSD-2",
+    "authors": [
+        {
+            "name": "WallstreetCN Team"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.10",
+        "ext-redis": "*",
+        "evaengine/eva-common": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/EvaEngine/EvaEngine.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/EvaEngine/incubator.git"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    }
+}
