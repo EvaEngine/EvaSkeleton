@@ -38,15 +38,6 @@ return array(
             1,
         ),
     ),
-    'EvaSearch' => array(
-        'relatedPostsEnable' => true,
-        'elasticsearch' => array(
-            'servers' => array(
-                'http://elasticsearch:9200',
-            ),
-            'index_name' => 'test'
-        )
-    ),
     'cache' => array(
         'enable' => true,
         'fastCache' => array(
